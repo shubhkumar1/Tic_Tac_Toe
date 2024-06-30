@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    height: 80vh;
+}
+.show{
+    background-color: red;
+    text-align: center;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 63vw;
+    gap: 1vw;
+}
+
+.boxes button{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 5px;
+    font-size: 3rem;
+    background-color: white;
+    padding: 0;
+    border: none;
+    background-color: aliceblue;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.resetBtn{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+
+.resetBtn:nth-child(1){
+    background-color: green;
+}
+
+.resetBtn:nth-child(2){
+    background-color: red;
+}
